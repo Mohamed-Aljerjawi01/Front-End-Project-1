@@ -49,6 +49,7 @@ header#head {
 .head-container {
     padding: 10px 15px;
     margin: 0 75px;
+    overflow: hidden;
 }
 
 .head-row {
@@ -317,7 +318,7 @@ div.section-three-content .qustions {
 
 .accordion-item {
     background-color: transparent;
-    padding: 20px 0;
+    padding: 20px 10px;
     border: 0;
 }
 
@@ -470,7 +471,7 @@ button.click a{
         flex-grow: 1;
     }
     section#hero .hero-image img{
-        max-width: 400px;
+        max-width: 100%;
     }
     #section-two .head-row{
         flex-wrap: wrap;
@@ -485,7 +486,7 @@ button.click a{
         flex-grow: 1;
     }
     #section-three .head-row .section-three-image img{
-        max-width: 400px;
+        max-width: 100%;
     }
     #section-four .head-row{
         flex-wrap: wrap;
@@ -501,6 +502,12 @@ button.click a{
     }
     footer#footer .links{
         font-size: 18px;
+    }
+    .accordion-item .accordion-header {
+        max-width: 100%;
+    }
+    .accordion-button {
+        gap: 30px;
     }
 }
 

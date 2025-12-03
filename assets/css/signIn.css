@@ -305,7 +305,7 @@ div.footer {
 
 @media (max-width:767px){
   div.all {
-   min-width: 350px;
+   min-width: 300px;
   }
 }
 
